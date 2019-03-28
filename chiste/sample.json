@@ -1,0 +1,12 @@
+[{
+    "cmd": "nmap <IP>",
+    "id": "1",
+    "description": "Scan a host machine's ports or a network",
+    "keywords": ["nmap","network scan","port scan","ip scan"]
+}, {
+
+    "cmd": "nmap -sS -sV -Pn -p- <IP>",
+    "id": "2",
+    "description": "Scan a host machine's ports or a network",
+    "keywords": ["nmap","network scan","port scan","ip scan"]
+}]

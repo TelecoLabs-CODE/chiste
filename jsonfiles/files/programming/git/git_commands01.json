@@ -1,0 +1,16 @@
+[{
+    "cmd": "git clone -b <BRANCH> <REPO_URL>",
+    "id": "31",
+    "description": "Git clone a single branch from a repository",
+    "keywords": ["","","",""]
+}, {
+    "cmd": "git clone <REPO_URL> ; git branch -a ; git checkout origin/<BRANCH> ; git checkout <BRANCH>",
+    "id": "32",
+    "description": "Git clone all the branches from a repository",
+    "keywords": ["","","",""]
+}, {
+    "cmd": "",
+    "id": "33",
+    "description": "",
+    "keywords": ["","","",""]
+}]

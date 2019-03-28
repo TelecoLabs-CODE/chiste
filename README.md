@@ -5,9 +5,9 @@ The new intelligence powered assistant for browsing and finding hacking scripts,
 
 USAGE
 -------
-python3.7 -m chiste -h           ---> Shows the help information
-python3.7 -m chiste --menu       ---> Shows the main panel
-python3.7 -m chiste --console    ---> Starts the chiste console
+python3.7 -m chiste -h           ---> Shows the help information  
+python3.7 -m chiste --menu       ---> Shows the main panel  
+python3.7 -m chiste --console    ---> Starts the chiste console  
 
 
 Details / Requirements:

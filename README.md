@@ -20,3 +20,9 @@ Some references to websites that made this tool possible (code help, ideas, etc)
 https://gitlab.com/cki-project/valligator
 https://code-maven.com/interactive-shell-with-cmd-in-python#full
 https://jaxenter.com/implement-switch-case-statement-python-138315.html
+http://www.sromero.org/wiki/programacion/tutoriales/python/recorrer_arbol
+
+
+
+
+TelecoLabs - CHISTE

@@ -14,7 +14,7 @@
     "description": "",
     "keywords": ["","","",""]
 }, {
-    "cmd": "find <ROOT_DIR_TO_START_SEARCHING> -iname <PATTERN_NON_CASE_SENSITIVE>",
+    "cmd": "find <ROOT_DIR_TO_START_SEARCHING> -iname <PATTERN_NON_CASE_SENSITIVE> 2>/dev/null",
     "id": "",
     "description": "",
     "keywords": ["","","",""]

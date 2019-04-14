@@ -8,6 +8,16 @@
     "id": "",
     "description": "",
     "keywords": ["","","",""]
+},{
+    "cmd": "sudo systemctl set-default multi-user.target",
+    "id": "6",
+    "description": "Change system to console mode in the next start",
+    "keywords": ["console mode","change system","text mode","only console", "only text mode"]
+},{
+    "cmd": "sudo systemctl set-default graphical.target",
+    "id": "7",
+    "description": "Change system to graphical mode in the next start",
+    "keywords": ["graphical mode","change system"]
 }, {
     "cmd": "",
     "id": "",

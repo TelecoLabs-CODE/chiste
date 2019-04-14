@@ -8,7 +8,7 @@ class MyPrompt(Cmd):
     def do_add(self, inp):
         print("Adding '{}'".format(inp))
 
-    def do_example_cmd():
+    def do_example_cmd(self, inp):
         print("Command for an example")
 
 MyPrompt().cmdloop()

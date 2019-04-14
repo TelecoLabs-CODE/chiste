@@ -21,6 +21,7 @@ class MyPrompt(Cmd):
         '''exit the application.'''
         print("Bye")
         return True
+
     def help_exit(self):
         print('exit the application. Shorthand: q Ctrl-D')
 
@@ -30,11 +31,13 @@ class MyPrompt(Cmd):
 
     def do_add(self, inp):
         print("Adding '{}'".format(inp))
+
     def help_add(self):
         print("Add a new entry to the system.")
 
     def do_cmds(self, inp):
         jsonparser.json_show_all_commands()
+
     def help_cmds(self):
         print("Show list of all commands available")
 

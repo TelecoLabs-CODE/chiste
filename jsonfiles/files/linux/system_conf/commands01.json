@@ -1,7 +1,7 @@
 [{
-    "cmd": "",
+    "cmd": "service ssh restart;systemctl enable ssh.service",
     "id": "",
-    "description": "",
+    "description": "Enable SSH and make it persistent. You should also go to /etc/ssh/sshd_config and write in #Authentication: PermitRootLogin yes",
     "keywords": ["","","",""]
 }, {
     "cmd": "",

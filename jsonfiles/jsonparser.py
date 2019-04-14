@@ -15,11 +15,10 @@ def walktree(top, callback):
             walktree(pathname, callback)
         elif S_ISREG(mode):
             # It's a file, call the callback function
-            callback(pathname,f,top)
-
+#            callback(pathname,f,top)
             with open(pathname, 'r') as json_file:
                 data = json.load(json_file)
-            print(pathname)
+#            print(pathname)
             ncommands = 0
             ncommands = len(data)
             n_full_commands = 0
@@ -28,7 +27,9 @@ def walktree(top, callback):
                 if command != "":
                     n_full_commands += 1
                     print(command)
-            print("Full Commands: ", n_full_commands, "Holes: ", ncommands)
+#            if n_full_commands != 0:
+#                callback(pathname,f,top)
+#                print("Full Commands: ", n_full_commands, "Holes: ", ncommands)
 
         else:
             # Unknown file type, print a message
@@ -41,15 +42,6 @@ def json_show_all_commands():
     with open('jsonfiles/files/sample.json', 'r') as json_file:
         data = json.load(json_file)
 
-    print("## Example JSON:")
-    for i in range(0,MaxCMD):
-        print(data[i]["cmd"])
-
-    print("## Rest of commands:")
-    for base, dirs, files in os.walk('jsonfiles/files/linux'):
-        print(files)
-
-    print("## Recursive files:")
     walktree("jsonfiles/files/linux", visitfile)
 
 
@@ -60,3 +52,8 @@ def json_show_all_commands_backup():
 
     for i in range(0,MaxCMD):
         print(data[i]["cmd"])
+
+    print("## Rest of commands:")
+    for base, dirs, files in os.walk('jsonfiles/files/linux'):
+        print(files)
+

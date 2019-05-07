@@ -39,7 +39,7 @@ def menu():
         option = input("Select an option: ")
         switcher = {
             '1': call_console,
-            '2': call_jsonparser,
+            '2': call_searcher,
 #           '3':
             '5': exit_menu_while,
             'exit': exit_menu_while
@@ -50,6 +50,10 @@ def menu():
             print(func())
         else:
             flag=1
+
+def call_searcher():
+    searcher = help.MyPrompt()
+    searcher.cmdloop()
 
 
 def call_console():

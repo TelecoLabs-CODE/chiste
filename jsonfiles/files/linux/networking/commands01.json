@@ -1,10 +1,10 @@
 [{
-    "cmd": "",
+    "cmd": "ifconfig",
     "id": "",
     "description": "",
     "keywords": ["","","",""]
 }, {
-    "cmd": "",
+    "cmd": "arp -a",
     "id": "",
     "description": "",
     "keywords": ["","","",""]

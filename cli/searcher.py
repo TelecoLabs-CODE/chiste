@@ -43,17 +43,3 @@ def json_show_all_commands():
         data = json.load(json_file)
 
     walktree("jsonfiles/files/linux", visitfile)
-
-
-def json_show_all_commands_backup():
-#Local paths start from the root of the project
-    with open('jsonfiles/files/sample.json', 'r') as json_file:
-        data = json.load(json_file)
-
-    for i in range(0,MaxCMD):
-        print(data[i]["cmd"])
-
-    print("## Rest of commands:")
-    for base, dirs, files in os.walk('jsonfiles/files/linux'):
-        print(files)
-

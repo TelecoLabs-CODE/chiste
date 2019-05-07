@@ -51,12 +51,6 @@ class MyPrompt(Cmd):
     def help_cmds(self):
         print("Show list of all commands available")
 
-    def do_search(self, inp):
-        print("[*] Searching your command...")
-
-    def help_search(self):
-        print("Search a command/script")
-
     def default(self, inp):
         if inp == 'q':
             return self.do_exit(inp)

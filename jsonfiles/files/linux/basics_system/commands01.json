@@ -1,16 +1,23 @@
 [{
-    "cmd": "",
+    "cmd": "netstat -tlpon",
     "id": "",
     "description": "",
     "keywords": ["","","",""]
 }, {
-    "cmd": "",
+    "cmd": "grep -nr <ROOT_DIR_TO_START_SEARCHING> -e <PATTERN>",
     "id": "",
     "description": "",
     "keywords": ["","","",""]
 }, {
-    "cmd": "",
+    "cmd": "grep -nrw <ROOT_DIR_TO_START_SEARCHING> -e <PATTERN>",
     "id": "",
     "description": "",
     "keywords": ["","","",""]
-}]
+}, {
+    "cmd": "find <ROOT_DIR_TO_START_SEARCHING> -iname <PATTERN_NON_CASE_SENSITIVE> 2>/dev/null",
+    "id": "",
+    "description": "",
+    "keywords": ["","","",""]
+}
+
+]
